@@ -1,0 +1,433 @@
+{
+    "wc_01001_URX_SHORT_PANEL": {
+        "clone": "5d123a3cd7ad1a004e476058",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/tactical/tactical_urx_kac_panel_short_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f74cc86f77447ec5d770a",
+            "Price": 1200
+        },
+        "locales": {
+            "Name": "KAC URX 3/3.1 short panel (White)",
+            "Shortname": "URX Short",
+            "Description": "Short rail cover for URX 3/3.1 handguards, manufactured by Knights Armament. Modded White."
+        }
+    },
+    "wc_01002_VUDU_SCOPE": {
+        "clone": "5b3b99475acfc432ff4dcbee",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/scopes/scope_30mm_eotech_vudu_1_6x24_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f748386f774093e6cb501",
+            "Price": 44344
+        },
+        "locales": {
+            "Name": "EOTech Vudu 1-6x24 30mm riflescope (White)",
+            "Shortname": "VUDU",
+            "Description": "The EOTech Vudu 1-6x24 riflescope, equally effective on AR platforms and bolt-action rifles. Its EOTech-style speed ring reticle is designed for fast target engagement at low power, while delivering the resolution and accuracy needed for longer range targets. Modded White."
+        }
+    },
+    "wc_01003_AIMPOINT_SPACER": {
+        "clone": "58d39b0386f77443380bf13c",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/mounts/mount_base_aimpoint_h1_t1_spacer_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 2203
+        },
+        "locales": {
+            "Name": "Aimpoint Micro Spacer High (White)",
+            "Shortname": "AMSH",
+            "Description": "Raises height of optical axis. Modded White."
+        },
+        "wcCompatibilities": {
+            "mod_scope": [
+                "wc_01004_AIMPOINT_SCOPE"
+            ]
+        }
+    },
+    "wc_01004_AIMPOINT_SCOPE": {
+        "clone": "58d399e486f77442e0016fe7",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/scopes/scope_base_aimpoint_micro_t1_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f748386f774093e6cb501",
+            "Price": 28344
+        },
+        "locales": {
+            "Name": "Aimpoint Micro T-1 reflex sight (White)",
+            "Shortname": "T-1",
+            "Description": "Compact Micro H-1 reflex sight by Aimpoint was designed for use with any kind of firearms and even with bows. Lightweight, compact, and durable. Modded White."
+        }
+    },
+    "wc_01005_DD_MK12_GASBLOCK": {
+        "clone": "56eabcd4d2720b66698b4574",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/gasblock/gas_block_ar15_dd_mk12_low_profile_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f760586f774093e6cb509",
+            "Price": 4756
+        },
+        "locales": {
+            "Name": "AR-15 Daniel Defense MK12 Low Profile Gas Block (White)",
+            "Shortname": "MK12",
+            "Description": "The MK12 Gas Block is only compatible with the RIS II (M4A1 & MK18) family of rail systems manufactured by Daniel Defense. It is not compatible with any other Daniel Defense rail system. This is due to various clearance issues. This only applies to rail system lengths that would completely shroud the gas block. If you are mounting the gas block to the barrel without being shrouded by the rail system, then this does not apply. In that case, it will fit as long as the barrel's diameter is .750. Modded White."
+        }
+    },
+    "wc_01006_MOD2_CHARGE": {
+        "clone": "5f633ff5c444ce7e3c30a006",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/charges/charge_ar15_rainer_arms_avalanche_mod2_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f751486f77447ec5d770c",
+            "Price": 7000
+        },
+        "locales": {
+            "Name": "AR-15 Rainier Arms Avalanche MOD2 charging handle (White)",
+            "Shortname": "Avalanche",
+            "Description": "Avalanche Mod.2 charging handle for AR-15 and compatible systems. Manufactured by Rainer Arms. Modded White."
+        }
+    },
+    "wc_01007_EMOD_STOCK": {
+        "clone": "5b39f8db5acfc40016387a1b",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/stocks/stock_ar15_vltor_emod_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f757486f774093e6cb507",
+            "Price": 8889
+        },
+        "locales": {
+            "Name": "Vltor EMOD stock (White)",
+            "Shortname": "EMOD",
+            "Description": "The EMOD buttstock designed for AR-15 weapon systems. Manufactured by Vltor. Modded White."
+        }
+    },
+    "669d659957ba723f587110a3": {
+        "clone": "5aaa5dfee5b5b000140293d3",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_30_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f754a86f774094242f19b",
+            "Price": 3113
+        },
+        "locales": {
+            "Name": "5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (White)",
+            "Shortname": "GEN M3",
+            "Description": "30-round polymer Magpul PMAG GEN M3 30 magazine, for 5.56x45 ammunition. Modded White."
+        }
+    },
+    "wc_01009_F1_PC": {
+        "clone": "6113cc78d3a39d50044c065a",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/pistol grips/pistolgrip_ar15_f1_firearms_st2_pc_skeletonized_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f761f86f774094242f1a1",
+            "Price": 15500
+        },
+        "locales": {
+            "Name": "AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip (White)",
+            "Shortname": "F1 PC",
+            "Description": "A lightweight ergonomical pistol grip with finger grooves for AR-15 weapon systems, manufactured by F1 Firearms. Wrapped with paracord for maximum comfort and minimum hand slip. Modded White."
+        }
+    },
+    "wc_01010_BCM_FOREGRIP": {
+        "clone": "5c7fc87d2e221644f31c0298",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/foregrips/foregrip_all_bcm_mod_3_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f71de86f774093f2ecf13",
+            "Price": 4900
+        },
+        "locales": {
+            "Name": "BCM GUNFIGHTER MOD 3 vertical foregrip (White)",
+            "Shortname": "GF MOD3",
+            "Description": "Lightweight polymer tactical grip produced by BCM. Modded White."
+        }
+    },
+    "wc_01011_AR_NOVESKE_RECIEVER": {
+        "clone": "5c07a8770db8340023300450",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/recievers/reciever_ar15_noveske_gen3_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f764186f77447ec5d7714",
+            "Price": 25150
+        },
+        "locales": {
+            "Name": "AR-15 Noveske Gen.3 5.56x45 upper receiver (White)",
+            "Shortname": "Gen.3",
+            "Description": "The Gen.3 modular upper receiver for AR-based weapons, manufactured by Noveske. Fitted with mounts for attaching additional equipment. Modded White."
+        },
+        "wcCompatibilities": {
+            "mod_handguard": [
+                "wc_01012_AR_URX_8_HANDGUARD",
+                "wc_01014_AR_URX_10_HANDGUARD"
+            ],
+            "mod_scope": [
+                "wc_01017_VORTEX_RAZOR_UH1",
+                "wc_01018_EXPS3"
+            ]
+        }
+    },
+    "wc_01012_AR_URX_8_HANDGUARD": {
+        "clone": "5d123102d7ad1a004e475fe5",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/handguards/handguard_ar15_kac_urx_3_8_inch_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f75e486f77447ec5d7712",
+            "Price": 11690
+        },
+        "locales": {
+            "Name": "AR-15 KAC URX3 8 inch handguard (White)",
+            "Shortname": "URX3 8",
+            "Description": "The Knight's Armament URX 3 handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories. Modded White."
+        },
+        "wcCompatibilities": {
+            "mod_handguard": [
+                "wc_01013_AR_URX_8_LOW_HANDGUARD"
+            ],
+            "mod_tactical_000": [
+                "wc_01016_ANPEQ_15_TACTICAL"
+            ]
+        }
+    },
+    "wc_01013_AR_URX_8_LOW_HANDGUARD": {
+        "clone": "637f57d2f5ef8c33840d36c4",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/handguards/handguard_ar15_kac_urx_3_8_inch_lower_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f75e486f77447ec5d7712",
+            "Price": 5010
+        },
+        "locales": {
+            "Name": "AR-15 KAC URX3 8 inch lower handguard (White)",
+            "Shortname": "URX3 8",
+            "Description": "The Knight's Armament URX 3 lower handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories. Modded White."
+        }
+    },
+    "wc_01014_AR_URX_10_HANDGUARD": {
+        "clone": "5d122e7bd7ad1a07102d6d7f",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/handguards/handguard_ar15_kac_urx_31_10,75_inch_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f75e486f77447ec5d7712",
+            "Price": 13160
+        },
+        "locales": {
+            "Name": "AR-15 KAC URX3 10.75 inch handguard (White)",
+            "Shortname": "URX3 10.75",
+            "Description": "The Knight's Armament URX 3.1 handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories. Modded White."
+        },
+        "wcCompatibilities": {
+            "mod_handguard": [
+                "wc_01015_AR_URX_10_LOW_HANDGUARD"
+            ],
+            "mod_tactical_000": [
+                "wc_01016_ANPEQ_15_TACTICAL"
+            ]
+        }
+    },
+    "wc_01015_AR_URX_10_LOW_HANDGUARD": {
+        "clone": "637f57c532b66e7e320a6676",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/handguards/handguard_ar15_kac_urx_31_10,75_inch_lower_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f75e486f77447ec5d7712",
+            "Price": 5640
+        },
+        "locales": {
+            "Name": "AR-15 KAC URX 3.1 10.75 inch lower handguard (White)",
+            "Shortname": "URX3 10.75",
+            "Description": "The Knight's Armament URX 3.1 lower handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories. Modded White."
+        }
+    },
+    "wc_01016_ANPEQ_15_TACTICAL": {
+        "clone": "544909bb4bdc2d6f028b4577",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/tactical/tactical_all_insight_anpeq15_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f737886f774093e6cb4fb",
+            "Price": 19137
+        },
+        "locales": {
+            "Name": "AN/PEQ-15 tactical device (White)",
+            "Shortname": "AN/PEQ",
+            "Description": "The Advanced Target Pointer Illuminator Aiming Laser (ATPIAL) produced by L3 Technologies is a rugged, combat-proven and easy-to-use aiming system with integrated infrared and visible aim lasers as well as an infrared illuminator. Modded White."
+        }
+    },
+    "wc_01017_VORTEX_RAZOR_UH1": {
+        "clone": "59f9d81586f7744c7506ee62",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/scopes/scope_all_vortex_razor_amg_uh-1_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f742686f774093e6cb4ff",
+            "Price": 25857
+        },
+        "locales": {
+            "Name": "Vortex Razor AMG UH-1 holographic sight (White)",
+            "Shortname": "UH-1",
+            "Description": "Vortex Razor AMG UH-1 holographic sight is not only about futuristic design, but, according to its creators, is also a revolution among holographic and reflex sights. Modded White."
+        }
+    },
+    "wc_01018_EXPS3": {
+        "clone": "558022b54bdc2dac148b458d",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/scopes/scope_all_eotech_exps3_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f742686f774093e6cb4ff",
+            "Price": 29400
+        },
+        "locales": {
+            "Name": "EOTech EXPS3 holographic sight (White)",
+            "Shortname": "EXPS3",
+            "Description": "Eotech EXPS3 holo sight. Thanks to design features it can be used with a wide range of weapons even with non-folding sights. Compatible with night vision devices by the means of NV reticle mode. Utilized by US SOCOM as a sight for operations in confined spaces. Modded White."
+        }
+    },
+    "wc_01019_M4SD_K": {
+        "clone": "638612b607dfed1ccb7206ba",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "mods/silencers/silencer_sdqd_griffin_m4sd_k_silencer_556x45_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f731a86f774093e6cb4f9",
+            "Price": 77000
+        },
+        "locales": {
+            "Name": "AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor (White)",
+            "Shortname": "M4SDK",
+            "Description": "The M4SD-K sound suppressor, designed for use with 5.56x45 caliber weapon systems. Can only be installed on the SDQD mounting interface flash hiders. Modded White."
+        }
+    },
+    "wc_010421_WHITE_M4A1": {
+        "clone": "5447a9cd4bdc2dbd208b4567",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "m4a1_white/weapon_colt_m4a1_556x45_container.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f78fc86f77409407a7f90",
+            "Price": 40000
+        },
+        "locales": {
+            "Name": "Colt M4A1 5.56x45 assault rifle (White)",
+            "Shortname": "M4A1",
+            "Description": "The Colt M4A1 carbine is a fully automatic variant of the basic M4 Carbine and was primarily designed for special operations use. However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 for almost all special operations units, followed later by general introduction of the M4A1 into service with the U.S. Army and Marine Corps. Modded White."
+        }
+    }
+}
