@@ -1,5 +1,5 @@
 {
-    "wc_01001_URX_SHORT_PANEL": {
+    "67c26286da8783675c5967bd": {
         "clone": "5d123a3cd7ad1a004e476058",
         "enable": true,
         "items": {
@@ -19,7 +19,7 @@
             "Description": "Short rail cover for URX 3/3.1 handguards, manufactured by Knights Armament. Modded White."
         }
     },
-    "wc_01002_VUDU_SCOPE": {
+    "67c26286da8783675c5967be": {
         "clone": "5b3b99475acfc432ff4dcbee",
         "enable": true,
         "items": {
@@ -39,7 +39,7 @@
             "Description": "The EOTech Vudu 1-6x24 riflescope, equally effective on AR platforms and bolt-action rifles. Its EOTech-style speed ring reticle is designed for fast target engagement at low power, while delivering the resolution and accuracy needed for longer range targets. Modded White."
         }
     },
-    "wc_01003_AIMPOINT_SPACER": {
+    "67c26286da8783675c5967bf": {
         "clone": "58d39b0386f77443380bf13c",
         "enable": true,
         "items": {
@@ -60,11 +60,11 @@
         },
         "wcCompatibilities": {
             "mod_scope": [
-                "wc_01004_AIMPOINT_SCOPE"
+                "67c26286da8783675c5967c0"
             ]
         }
     },
-    "wc_01004_AIMPOINT_SCOPE": {
+    "67c26286da8783675c5967c0": {
         "clone": "58d399e486f77442e0016fe7",
         "enable": true,
         "items": {
@@ -84,7 +84,7 @@
             "Description": "Compact Micro H-1 reflex sight by Aimpoint was designed for use with any kind of firearms and even with bows. Lightweight, compact, and durable. Modded White."
         }
     },
-    "wc_01005_DD_MK12_GASBLOCK": {
+    "67c26286da8783675c5967c1": {
         "clone": "56eabcd4d2720b66698b4574",
         "enable": true,
         "items": {
@@ -104,7 +104,7 @@
             "Description": "The MK12 Gas Block is only compatible with the RIS II (M4A1 & MK18) family of rail systems manufactured by Daniel Defense. It is not compatible with any other Daniel Defense rail system. This is due to various clearance issues. This only applies to rail system lengths that would completely shroud the gas block. If you are mounting the gas block to the barrel without being shrouded by the rail system, then this does not apply. In that case, it will fit as long as the barrel's diameter is .750. Modded White."
         }
     },
-    "wc_01006_MOD2_CHARGE": {
+    "67c26286da8783675c5967c2": {
         "clone": "5f633ff5c444ce7e3c30a006",
         "enable": true,
         "items": {
@@ -124,7 +124,7 @@
             "Description": "Avalanche Mod.2 charging handle for AR-15 and compatible systems. Manufactured by Rainer Arms. Modded White."
         }
     },
-    "wc_01007_EMOD_STOCK": {
+    "67c26286da8783675c5967c3": {
         "clone": "5b39f8db5acfc40016387a1b",
         "enable": true,
         "items": {
@@ -144,7 +144,7 @@
             "Description": "The EMOD buttstock designed for AR-15 weapon systems. Manufactured by Vltor. Modded White."
         }
     },
-    "669d659957ba723f587110a3": {
+    "67c26286da8783675c5967c4": {
         "clone": "5aaa5dfee5b5b000140293d3",
         "enable": true,
         "items": {
@@ -164,7 +164,7 @@
             "Description": "30-round polymer Magpul PMAG GEN M3 30 magazine, for 5.56x45 ammunition. Modded White."
         }
     },
-    "wc_01009_F1_PC": {
+    "67c26286da8783675c5967c5": {
         "clone": "6113cc78d3a39d50044c065a",
         "enable": true,
         "items": {
@@ -184,7 +184,7 @@
             "Description": "A lightweight ergonomical pistol grip with finger grooves for AR-15 weapon systems, manufactured by F1 Firearms. Wrapped with paracord for maximum comfort and minimum hand slip. Modded White."
         }
     },
-    "wc_01010_BCM_FOREGRIP": {
+    "67c26286da8783675c5967c6": {
         "clone": "5c7fc87d2e221644f31c0298",
         "enable": true,
         "items": {
@@ -204,7 +204,7 @@
             "Description": "Lightweight polymer tactical grip produced by BCM. Modded White."
         }
     },
-    "wc_01011_AR_NOVESKE_RECIEVER": {
+    "67c26286da8783675c5967c7": {
         "clone": "5c07a8770db8340023300450",
         "enable": true,
         "items": {
@@ -225,16 +225,16 @@
         },
         "wcCompatibilities": {
             "mod_handguard": [
-                "wc_01012_AR_URX_8_HANDGUARD",
-                "wc_01014_AR_URX_10_HANDGUARD"
+                "67c26286da8783675c5967c8",
+                "67c26286da8783675c5967ca"
             ],
             "mod_scope": [
-                "wc_01017_VORTEX_RAZOR_UH1",
-                "wc_01018_EXPS3"
+                "67c26286da8783675c5967cd",
+                "67c26286da8783675c5967ce"
             ]
         }
     },
-    "wc_01012_AR_URX_8_HANDGUARD": {
+    "67c26286da8783675c5967c8": {
         "clone": "5d123102d7ad1a004e475fe5",
         "enable": true,
         "items": {
@@ -255,14 +255,14 @@
         },
         "wcCompatibilities": {
             "mod_handguard": [
-                "wc_01013_AR_URX_8_LOW_HANDGUARD"
+                "67c26286da8783675c5967c9"
             ],
             "mod_tactical_000": [
-                "wc_01016_ANPEQ_15_TACTICAL"
+                "67c26286da8783675c5967cc"
             ]
         }
     },
-    "wc_01013_AR_URX_8_LOW_HANDGUARD": {
+    "67c26286da8783675c5967c9": {
         "clone": "637f57d2f5ef8c33840d36c4",
         "enable": true,
         "items": {
@@ -282,7 +282,7 @@
             "Description": "The Knight's Armament URX 3 lower handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories. Modded White."
         }
     },
-    "wc_01014_AR_URX_10_HANDGUARD": {
+    "67c26286da8783675c5967ca": {
         "clone": "5d122e7bd7ad1a07102d6d7f",
         "enable": true,
         "items": {
@@ -303,14 +303,14 @@
         },
         "wcCompatibilities": {
             "mod_handguard": [
-                "wc_01015_AR_URX_10_LOW_HANDGUARD"
+                "67c26286da8783675c5967cb"
             ],
             "mod_tactical_000": [
-                "wc_01016_ANPEQ_15_TACTICAL"
+                "67c26286da8783675c5967cc"
             ]
         }
     },
-    "wc_01015_AR_URX_10_LOW_HANDGUARD": {
+    "67c26286da8783675c5967cb": {
         "clone": "637f57c532b66e7e320a6676",
         "enable": true,
         "items": {
@@ -330,7 +330,7 @@
             "Description": "The Knight's Armament URX 3.1 lower handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories. Modded White."
         }
     },
-    "wc_01016_ANPEQ_15_TACTICAL": {
+    "67c26286da8783675c5967cc": {
         "clone": "544909bb4bdc2d6f028b4577",
         "enable": true,
         "items": {
@@ -350,7 +350,7 @@
             "Description": "The Advanced Target Pointer Illuminator Aiming Laser (ATPIAL) produced by L3 Technologies is a rugged, combat-proven and easy-to-use aiming system with integrated infrared and visible aim lasers as well as an infrared illuminator. Modded White."
         }
     },
-    "wc_01017_VORTEX_RAZOR_UH1": {
+    "67c26286da8783675c5967cd": {
         "clone": "59f9d81586f7744c7506ee62",
         "enable": true,
         "items": {
@@ -370,7 +370,7 @@
             "Description": "Vortex Razor AMG UH-1 holographic sight is not only about futuristic design, but, according to its creators, is also a revolution among holographic and reflex sights. Modded White."
         }
     },
-    "wc_01018_EXPS3": {
+    "67c26286da8783675c5967ce": {
         "clone": "558022b54bdc2dac148b458d",
         "enable": true,
         "items": {
@@ -390,7 +390,7 @@
             "Description": "Eotech EXPS3 holo sight. Thanks to design features it can be used with a wide range of weapons even with non-folding sights. Compatible with night vision devices by the means of NV reticle mode. Utilized by US SOCOM as a sight for operations in confined spaces. Modded White."
         }
     },
-    "wc_01019_M4SD_K": {
+    "67c26286da8783675c5967cf": {
         "clone": "638612b607dfed1ccb7206ba",
         "enable": true,
         "items": {
@@ -410,7 +410,7 @@
             "Description": "The M4SD-K sound suppressor, designed for use with 5.56x45 caliber weapon systems. Can only be installed on the SDQD mounting interface flash hiders. Modded White."
         }
     },
-    "wc_010421_WHITE_M4A1": {
+    "67c26286da8783675c5967d0": {
         "clone": "5447a9cd4bdc2dbd208b4567",
         "enable": true,
         "items": {
