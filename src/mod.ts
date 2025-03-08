@@ -64,7 +64,7 @@ class whiteCore implements IPostDBLoadMod
             this.logger.info("------------------------");
             this.logger.info("White Core Loaded");
         } catch (error) {
-            this.logger.error(`Error loading BlackCore mod: ${error.message}`);
+            this.logger.error(`Error loading WhiteCore mod: ${error.message}`);
         }
     }
 
@@ -79,6 +79,7 @@ class whiteCore implements IPostDBLoadMod
             this.logger.error(`Template item ${itemToClone} not found`);
             return;
         }
+
         if (this.mydb.items[whiteCoreID].enable == true) {
             let whiteCoreItemOut = this.jsonUtil.clone(this.db.templates.items[itemToClone]);
 
@@ -130,7 +131,7 @@ class whiteCore implements IPostDBLoadMod
             const combined = slots.concat(chambers, cartridges)
 
             for (const entry of combined) {
-                for (const id of entry._props.filters[0].Filter){
+                for (const id of entry._props.filters[0].Filter) {
                     if ( id === itemClone ) entry._props.filters[0].Filter.push(whiteCoreID);
                 }
             }
