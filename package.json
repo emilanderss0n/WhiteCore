@@ -1,10 +1,10 @@
 {
     "name": "White Core",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "main": "src/mod.js",
     "license": "University of Illinois/NCSA Open Source License",
     "author": "MoxoPixel",
-    "sptVersion": "3.9.X",
+    "sptVersion": "3.10.X",
     "isBundleMod": true,
     "scripts": {
         "setup": "npm i",
