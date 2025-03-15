@@ -56,10 +56,35 @@ class whiteCore implements IPostDBLoadMod
             }
             for (const trader in traders) this.addTraderAssort(traders[trader]);
 
-            //const dbMastering = this.db.globals.config.Mastering;
-            //for (const weapon in dbMastering)
-            //{
-            //}
+            const dbMastering = this.db.globals.config.Mastering;
+            for (const weapon in dbMastering)
+            {
+                if (dbMastering[weapon].Name == "M4") dbMastering[weapon].Templates.push("67c26286da8783675c5967d0");
+            }
+
+            const dbQuests = this.db.templates.quests;
+            for (const M4Quest in dbQuests) {
+                if (
+                    dbQuests[M4Quest]._id === "5a27bb8386f7741c770d2d0a" ||
+                    dbQuests[M4Quest]._id === "5c0d4c12d09282029f539173" ||
+                    dbQuests[M4Quest]._id === "63a9b229813bba58a50c9ee5" ||
+                    dbQuests[M4Quest]._id === "64e7b9bffd30422ed03dad38" ||
+                    dbQuests[M4Quest]._id === "666314b4d7f171c4c20226c3"
+                ) {
+                    const availableForFinish = dbQuests[M4Quest].conditions.AvailableForFinish;
+                    for (const condition of availableForFinish) {
+                        if (condition.counter && condition.counter.conditions) {
+                            for (const counterCondition of condition.counter.conditions) {
+                                if (counterCondition.weapon) {
+                                    counterCondition.weapon.push(
+                                        "67c26286da8783675c5967d0",
+                                    );
+                                }
+                            }
+                        }
+                    }
+                }
+            }
 
             this.logger.info("------------------------");
             this.logger.info("White Core Loaded");
@@ -72,6 +97,10 @@ class whiteCore implements IPostDBLoadMod
     {
         if (!itemToClone || !whiteCoreID) {
             this.logger.error("Invalid parameters passed to cloneItem");
+            return;
+        }
+
+        if (!this.mydb.items[whiteCoreID]?.enable) {
             return;
         }
 
