@@ -1,6 +1,6 @@
 {
     "name": "White Core",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "main": "src/mod.js",
     "license": "University of Illinois/NCSA Open Source License",
     "author": "MoxoPixel",
